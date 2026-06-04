@@ -36,7 +36,7 @@ export default function Hero() {
 
           <div className="hero-actions" style={anim(0.28)}>
             <Btn href="mailto:yazied1425@gmail.com" dark>Get in touch</Btn>
-            <Btn href="/cv.pdf" target="_blank" rel="noopener noreferrer">View CV ↗</Btn>
+            <Btn href={`${import.meta.env.BASE_URL}cv.pdf`}>View CV ↗</Btn>
             <Btn href="https://github.com/Yazeed-Bafaqih">GitHub ↗</Btn>
             <Btn href="https://linkedin.com/in/yazeed-bafaqih-b1a449349">LinkedIn ↗</Btn>
           </div>
