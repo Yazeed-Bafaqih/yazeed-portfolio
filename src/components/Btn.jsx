@@ -3,7 +3,7 @@ import { useState } from "react";
 export default function Btn({ href, dark, children, ...rest }) {
   const [hov, setHov] = useState(false);
   const [pressed, setPressed] = useState(false);
-  const isExternal = href?.startsWith("http");
+  const isExternal = href?.startsWith("http") || href?.endsWith(".pdf");
 
   return (
     <a
