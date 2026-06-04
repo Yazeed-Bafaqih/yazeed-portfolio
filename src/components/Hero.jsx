@@ -43,7 +43,7 @@ export default function Hero() {
         </div>
 
         <img
-          src="/profile.jpg"
+          src={`${import.meta.env.BASE_URL}profile.jpg`}
           alt="Yazeed Bafaqih"
           className="hero-photo"
           style={anim(0.14)}

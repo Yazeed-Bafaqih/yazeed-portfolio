@@ -29,7 +29,7 @@ const skillGroups = [
     label: "Tools & Methods",
     items: [
       { name: "Git", icon: ICON("git/git-original.svg") },
-      { name: "GitHub", icon: "https://cdn.simpleicons.org/github/ffffff" },
+      { name: "GitHub", icon: "https://cdn.simpleicons.org/github/1A2E4A" },
       { name: "Figma", icon: ICON("figma/figma-original.svg") },
       { name: "VS Code", icon: ICON("vscode/vscode-original.svg") },
     ],
